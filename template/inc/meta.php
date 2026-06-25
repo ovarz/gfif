@@ -21,6 +21,8 @@
 <meta name="copyright" content="2023 | <?php echo $sitename; ?>">
 <meta name="keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
 <meta name="news_keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
+<meta name="author" content="<?php echo $sitename; ?>"/>
+<meta name="copyright" content="2023 <?php echo $sitename; ?>"/>
 
 <meta property="fb:app_id" content=""/>
 <meta property="og:type" content="article"/>
