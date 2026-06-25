@@ -31,6 +31,7 @@
 <meta property="og:title" content="<?php echo $sitename; ?>"/>
 <meta property="og:image" content="https://gfifoundation.org/template/img/cover.jpg"/>
 <meta property="og:description" content="<?php echo $sitedesc; ?>"/>
+<meta property="og:image:alt" content="<?php echo $sitename; ?>. <?php echo $sitedesc; ?>"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="https://gfifoundation.org/template/img/cover.jpg"/>
