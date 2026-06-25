@@ -131,6 +131,12 @@ header, header .header-logo svg{transition:var(--transition-default);}
 .partner-separator{width:100%; height:1px; background-color:var(--color-border-form);}
 .partner-column-title{margin-bottom:var(--size-3); color:var(--color-2); font-weight:bold;}
 .partner-column-list{display:grid; grid-gap:var(--size-2); list-style:square; padding-left:var(--size-4);}
+.partner-display{display:flex; justify-content:center; flex-wrap:wrap; gap:var(--size-6);}
+.partner-display-box[title="Borussia Mönchengladbach"]{--aspect-ratio:236/100; width:236px;}
+.partner-display-box[title="Borussia Mönchengladbach Academy Indonesia"]{--aspect-ratio:237/100; width:237px;}
+.partner-display-box[title="German Football Indonesia"]{--aspect-ratio:89/100; width:89px;}
+.partner-display-box[title="ISCO Foundation"]{--aspect-ratio:83/100; width:83px;}
+.partner-display-box[title="Henkel Indonesia"]{--aspect-ratio:180/100; width:180px;}
 
 
 

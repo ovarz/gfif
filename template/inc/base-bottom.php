@@ -17,9 +17,9 @@
 <script defer src="template/js/lazysizes.min.js"></script>
 <script defer rancak-hold="template/js/rancak.js?<?php echo $anticache;?>"></script>
 <script>
-  //setTimeout(function() {
-    //window.scrollTo(0, 0);
-  //}, 100);
+  setTimeout(function() {
+    window.scrollTo(0, 0);
+  }, 100);
 </script>
 
 

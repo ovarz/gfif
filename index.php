@@ -227,6 +227,42 @@
     <div class="partner-wording">
       <h4 class="partner-subtitle">Partnerships can be financial or in-kind (equipment, facilities, logistics, or expertise).</h4>
     </div>
+    <div class="partner-display">
+      <?php 
+        $partner_array = array();
+        $partner_array[]=array(
+          'partner_title'=>'Borussia Mönchengladbach',
+          'partner_logo'=>'mgladbach',
+          'partner_link'=>'https://www.borussia.com/',
+        );
+        $partner_array[]=array(
+          'partner_title'=>'Borussia Mönchengladbach Academy Indonesia',
+          'partner_logo'=>'mgladbach-academy',
+          'partner_link'=>'https://mgladbachacademy.id/',
+        );
+        $partner_array[]=array(
+          'partner_title'=>'German Football Indonesia',
+          'partner_logo'=>'gfi',
+          'partner_link'=>'',
+        );
+        $partner_array[]=array(
+          'partner_title'=>'ISCO Foundation',
+          'partner_logo'=>'isco',
+          'partner_link'=>'https://www.iscofoundation.or.id/',
+        );
+        $partner_array[]=array(
+          'partner_title'=>'Henkel Indonesia',
+          'partner_logo'=>'henkel',
+          'partner_link'=>'https://www.henkel.co.id/in',
+        );
+        foreach($partner_array as $partner_list){
+      ?>
+        <a title="<?php echo($partner_list['partner_title'])?>" class="partner-display-box img-frame thumb-loading" 
+        href="<?php echo($partner_list['partner_link'])?>" target="_blank">
+          <img title="Logo <?php echo($partner_list['partner_title'])?>" class="lazyload" data-original="template/img/partner/<?php echo($partner_list['partner_logo'])?>.png"/>
+        </a>
+      <?php } ?>
+    </div>
     <div class="partner-wording">
       <h5 class="partner-subtitle">Every contribution helps us reach more children, strengthen communities, and create greater opportunities through football. Together, we can expand our impact and bring meaningful football experiences to more children across Indonesia.</h5>
     </div>
