@@ -3,7 +3,7 @@
 <base href="/" />
 <?php 
   $_SERVER['GFI'] = $_SERVER['DOCUMENT_ROOT'] . '/';  
-  $sitename = '';
+  $sitename = 'Grassroots Football Indonesia Foundation';
   $sitedesc = '';
   $anticache = date ('s'.'i'.'H'.'d'.'m'.'Y');
 ?>

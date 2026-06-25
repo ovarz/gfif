@@ -10,6 +10,13 @@
 
 
 
+.header-left > .header-box:first-child{padding-left:var(--size-6);}
+.header-right > .header-box:last-child{padding-right:var(--size-6);}
+
+.header-box svg{height:28px;}
+
+
+
 .site-container{padding-top:var(--size-7); padding-bottom:var(--size-7);}
 .section-container{padding:0 var(--size-6);}
 

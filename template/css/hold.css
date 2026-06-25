@@ -70,6 +70,15 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 
+.header-logo .color-1{fill:var(--bg-2);}
+.header-logo .color-2{fill:var(--color-4);}
+
+.header-afterscroll, .header-afterscroll .header-logo svg{transition:var(--transition-default);}
+.header-afterscroll{background-color:var(--bg-2);}
+.header-afterscroll .header-logo .color-1{fill:var(--color-2);}
+
+
+
 .section-cover{color:var(--bg-2);}
 .section-cover .section-bg{background-repeat:no-repeat; background-size:cover; background-color:var(--color-2);}
 .section-cover .section-overlay{background-color:rgb(0 0 0 / 64%);;}

@@ -47,6 +47,20 @@ function custom_password(){
 
 
 
+function all_scroll(){
+  $(window).scroll(function(){
+    var scroll_position = $(window).scrollTop();
+    if(scroll_position >= 4){
+      $('header').addClass("header-afterscroll");		
+    }
+    else{
+      $('header').removeClass("header-afterscroll");
+    }
+  }); 
+}
+
+
+
 var parallaxSection = document.querySelector(".section-cover .section-bg");
 function updateParallax() {
   if (parallaxSection) {
@@ -72,4 +86,5 @@ $(document).ready(function(){
   open_sticky();
   change_lang();
   custom_password();
+  all_scroll();
 });
