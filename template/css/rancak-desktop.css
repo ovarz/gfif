@@ -11,6 +11,12 @@
 
 
 .site-container{padding-top:var(--size-7); padding-bottom:var(--size-7);}
+.section-container{padding:0 var(--size-6);}
+
+
+
+.cover-content{max-width:640px;}
+.cover-title{font-size:3rem;}
 
 
 

@@ -1,5 +1,5 @@
 <footer class="content-center">
-  <div class="site-container">
+  <div class="section-container">
     footer
   </div>
 </footer>

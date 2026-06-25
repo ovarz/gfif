@@ -47,6 +47,26 @@ function custom_password(){
 
 
 
+var parallaxSection = document.querySelector(".section-cover .section-bg");
+function updateParallax() {
+  if (parallaxSection) {
+    var scrolled = window.pageYOffset;
+    parallaxSection.style.backgroundPositionY = (scrolled * 0.4) + "px";
+  }
+}
+updateParallax();
+window.addEventListener("scroll", updateParallax);
+var readMoreBtn = document.querySelector('button[title="Read More"]');
+var targetSection = document.querySelector('.rancak-section-info');
+if (readMoreBtn && targetSection) {
+  readMoreBtn.addEventListener('click', function(e) {
+    e.preventDefault();
+    targetSection.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();

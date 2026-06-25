@@ -11,8 +11,29 @@
   
   
   
+<section class="section-default section-cover content-center">
+  <div class="section-bg img-frame"></div>
+  <div class="section-overlay"></div>
+  <div class="section-container">
+
+    <div class="cover-content">
+      <div class="cover-subtitle">Welcome to</div>
+      <h2 class="cover-title text-title">Grassroots Football Indonesia Foundation</h2>
+      <h3 class="cover-subtitle">Developing Future Generations Through Football</h3>
+      <div class="cover-action">
+        <button class="btn">Read More</button>
+      </div>
+    </div>
+  
+  </div>
+</section>
+  
+  
+  
+  
+  
 <section class="section-default content-center">
-  <div class="site-container">
+  <div class="section-container" style="height:100vh">
 
     body
   
