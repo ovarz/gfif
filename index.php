@@ -14,7 +14,7 @@
 <section class="section-default content-center">
   <div class="site-container">
 
-    tes
+    body
   
   </div>
 </section>
