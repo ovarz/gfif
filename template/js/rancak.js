@@ -81,10 +81,50 @@ if (readMoreBtn && targetSection) {
 
 
 
+function countup_stats() {
+  var $statsSection = $('.section-stats');
+  if ($statsSection.length === 0) return;
+
+  var hasAnimated = false;
+
+  $('.stats-number span').each(function() {
+    var targetValue = $(this).text();
+    $(this).attr('data-target', targetValue);
+    $(this).text('0');
+  });
+
+  var observer = new IntersectionObserver(function(entries) {
+    // Mengecek apakah elemen sudah masuk ke dalam area observer
+    if (entries[0].isIntersecting && !hasAnimated) {
+      hasAnimated = true; // Mencegah animasi berjalan berkali-kali
+      
+      // Langkah 5: Jalankan animasi Count Up
+      $('.stats-number span').each(function() {
+        var $this = $(this);
+        var target = $this.attr('data-target');
+        
+        $({ Counter: 0 }).animate({ Counter: target }, {
+          duration: 2000, // Durasi animasi dalam milidetik (misal: 2000 = 2 detik)
+          easing: 'swing',
+          step: function(now) {
+            $this.text(Math.ceil(now));
+          }
+        });
+      });
+    }
+  }, {
+    rootMargin: "0px 0px -30% 0px"
+  });
+  observer.observe($statsSection[0]);
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();
   change_lang();
   custom_password();
   all_scroll();
+  countup_stats();
 });

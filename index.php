@@ -56,6 +56,41 @@
   
   </div>
 </section>
+  
+  
+  
+  
+  
+<section class="section-default section-stats content-center">
+  <div class="section-bg img-frame"></div>
+  <div class="section-container">
+    <h2 class="text-title section-title stats-title">Engagement</h2>
+    <h3 class="stats-subtitle">Established with a vision to use football as a powerful platform to create positive social impact, develop young individuals, and provide opportunities for children through the values and experiences of the sport.</h3>
+    <div class="stats-detail">
+      <?php 
+        $stat_array = array();
+        $stat_array[]=array(
+          'stat_number'=>'20',
+          'stat_label'=>'Branch',
+        );
+        $stat_array[]=array(
+          'stat_number'=>'600',
+          'stat_label'=>'Engagement Kids',
+        );
+        $stat_array[]=array(
+          'stat_number'=>'10',
+          'stat_label'=>'Partners',
+        );
+        foreach($stat_array as $stat_list){
+      ?>
+        <div class="stats-box">
+          <div class="stats-number">+<span><?php echo($stat_list['stat_number'])?></span></div>
+          <div class="stats-label"><?php echo($stat_list['stat_label'])?></div>
+        </div>
+      <?php } ?>
+    </div>
+  </div>
+</section>
 
 
 
