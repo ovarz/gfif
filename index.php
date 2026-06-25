@@ -91,6 +91,34 @@
     </div>
   </div>
 </section>
+  
+  
+  
+  
+  
+<section class="section-default section-impact content-center">
+  <div class="section-container">
+
+    <div class="about-frame">
+      <div class="about-image content-center">
+        <div class="about-image-frame img-frame thumb-loading">
+          <img title="About" class="lazyload" data-original="template/img/impact.jpg">
+        </div>
+      </div>
+      <div class="about-content">
+        <h2 class="text-title section-title about-title">Football For Social Impact</h2>
+        <h3 class="about-subtitle">
+          Grassroots Football Foundation x Borussia M’gladbach Academy Indonesia x ISCO.
+        </h3>
+        <p>Since 2024, Grassroots Football Foundation and Borussia M’gladbach Academy Indonesia, has partnered with ISCO to create a meaningful football development program focused on education, inclusion, and social impact.</p>
+        <p>Through this collaboration, we use football as a bridge to empower children, create hope, and develop future generations. Children from street communities were given the opportunity to experience football not only as a sport, but as a platform for learning, personal growth, and positive development.</p>
+        <p>Our program serve football coaching methods inspired by Borussia Academy’s development approach, participants had the opportunity to train, play, and grow together while discovering their potential both on and off the pitch. Combining football activities with educational support, mentorship, and character building, allowing children to develop confidence, teamwork, discipline, and a sense of belonging in a supportive environment.</p>
+        <p>The Foundation believes that football has the power to create opportunities, connect communities, and inspire young people to build a better future.</p>
+      </div>
+    </div>
+  
+  </div>
+</section>
 
 
 
