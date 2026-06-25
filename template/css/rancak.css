@@ -94,7 +94,8 @@ section{position:relative; z-index:1; padding:calc(var(--size-4) * 4) 0;}
 
 
 
-.about-frame{--img-width:360px; display:grid; grid-gap:var(--size-5); padding:var(--size-4); line-height:150%;}
+.section-about .about-frame{padding:var(--size-4);}
+.about-frame{--img-width:360px; display:grid; grid-gap:var(--size-5); line-height:150%;}
 .about-image-frame{--aspect-ratio:3/4; width:100%; max-width:var(--img-width);}
 .about-content{display:grid; grid-gap:var(--size-3);}
 .about-subtitle{font-weight:bold;}

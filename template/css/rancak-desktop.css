@@ -27,7 +27,8 @@
 
 
 
-.about-frame{padding:var(--size-5); grid-gap:var(--size-5); grid-template-columns:1fr var(--img-width);}
+.section-about .about-frame{padding:var(--size-5);}
+.about-frame{grid-gap:var(--size-5); grid-template-columns:1fr var(--img-width);}
 .about-image, .about-content{grid-row:1/2;} 
 .about-content{grid-column:1/2;}
 .about-image{grid-column:2/3; align-items:flex-start;}
@@ -40,7 +41,8 @@
 
 
 @media screen and (min-width:1280px){
-  .about-frame{--img-width:430px; padding:var(--size-6);}
+  .section-about .about-frame{padding:var(--size-6);}
+  .about-frame{--img-width:430px;}
 }
 
 

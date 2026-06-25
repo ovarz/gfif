@@ -188,6 +188,84 @@
   
   </div>
 </section>
+  
+  
+  
+  
+  
+<section class="section-default section-contact content-center">
+  <div class="section-bg img-frame"></div>
+  <div class="section-container">
+
+    <div class="about-frame">
+      <div class="about-image content-center">
+        <div class="about-image-frame img-frame thumb-loading">
+          <iframe title="HQ" class="lazyload" data-original="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.8364913825385!2d106.66306797573216!3d-6.2852129615223875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fb0018bb0c0f%3A0x9efbf23c8c2bb4ad!2sBorussia%20M%C3%B6nchengladbach%20Academy%20Indonesia%20Office%20%26%20Cafe!5e0!3m2!1sen!2sid!4v1782406209200!5m2!1sen!2sid" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+        </div>
+      </div>
+      <div class="about-content contact-content">
+        <h2 class="text-title section-title contact-title">Contact Us</h2>
+        <?php 
+          $contact_array = array();
+          $contact_array[]=array(
+            'contact_type'=>'div',
+            'contact_title'=>'',
+            'contact_link'=>'',
+            'contact_icon'=>'location',
+            'contact_label'=>'
+              Grassroots Football Indonesia Foundation, <br/>
+              Borussia Mönchengladbach Academy Indonesia Office & Cafe, <br/>
+              Ruko BSD Junction Blok B. 31, JL. Pahlawan Seribu, Serpong, <br/>
+              Tangerang Selatan, Banten 15322.
+            ',
+          );
+          $contact_array[]=array(
+            'contact_type'=>'a',
+            'contact_title'=>'Email GFI Foundation',
+            'contact_link'=>'mailto:contact@gfifoundation.org',
+            'contact_icon'=>'footer-outline-mail',
+            'contact_label'=>'contact@gfifoundation.org',
+          );
+          $contact_array[]=array(
+            'contact_type'=>'a',
+            'contact_title'=>'Whatsapp GFI Foundation',
+            'contact_link'=>'https://api.whatsapp.com/send/?phone=6281118898205',
+            'contact_icon'=>'footer-whatsapp',
+            'contact_label'=>'62 811 1889 8205',
+          );
+          /*
+          $contact_array[]=array(
+            'contact_type'=>'a',
+            'contact_title'=>'Instagram GFI Foundation',
+            'contact_link'=>'https://www.instagram.com/',
+            'contact_icon'=>'footer-outline-ig',
+            'contact_label'=>'@loremipsum',
+          );
+          $contact_array[]=array(
+            'contact_type'=>'a',
+            'contact_title'=>'Youtube GFI Foundation',
+            'contact_link'=>'https://www.youtube.com/',
+            'contact_icon'=>'footer-youtube',
+            'contact_label'=>'@loremipsum',
+          );
+          */
+          foreach($contact_array as $contact_list){
+        ?>
+          <<?php echo($contact_list['contact_type'])?> title="<?php echo($contact_list['contact_title'])?>" class="contact-content-box" 
+          href="<?php echo($contact_list['contact_link'])?>">
+            <div class="ccb-left">
+              <div class="ccb-icon"><?php require ($_SERVER['GFI'].'template/img/icon/'.$contact_list['contact_icon'].'.svg')?></div>
+            </div>
+            <div class="ccb-right">
+              <div class="ccb-label"><?php echo($contact_list['contact_label'])?></div>
+            </div>
+          </<?php echo($contact_list['contact_type'])?>>
+        <?php } ?>
+      </div>
+    </div>
+  
+  </div>
+</section>
 
 
 
