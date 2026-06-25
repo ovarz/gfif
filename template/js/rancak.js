@@ -120,6 +120,30 @@ function countup_stats() {
 
 
 
+function lazyload_ocean_video() {
+  var $oceanSection = $('.section-ocean');
+  if ($oceanSection.length === 0) return;
+
+  var observer = new IntersectionObserver(function(entries, observerInstance) {
+    // Terpicu ketika elemen target mulai masuk ke dalam layar dari bawah
+    if (entries[0].isIntersecting) {
+      var videoHtml = '<video autoplay loop muted controls playsinline preload="none"><source src="template/img/ocean.mp4" type="video/mp4"></video>';
+      
+      // Injeksi tag HTML video secara spesifik ke .about-image-frame di dalam .section-ocean
+      $oceanSection.find('.about-image-frame').html(videoHtml);
+      
+      // Hentikan observer agar injeksi kode tidak berulang saat di-scroll kembali
+      observerInstance.unobserve($oceanSection[0]);
+    }
+  }, {
+    rootMargin: "0px 0px 0px 0px" // Akurat memantau ketika bagian atas div menyentuh batas bawah layar
+  });
+
+  observer.observe($oceanSection[0]);
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();
@@ -127,4 +151,5 @@ $(document).ready(function(){
   custom_password();
   all_scroll();
   countup_stats();
+  lazyload_ocean_video();
 });

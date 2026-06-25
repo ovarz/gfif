@@ -112,7 +112,14 @@ header, header .header-logo svg{transition:var(--transition-default);}
 
 
 
-.section-impact .about-frame{background-color:transparent;}
+.section-impact .about-frame, .section-ocean .about-frame{background-color:transparent; padding:0;}
+
+
+
+.section-ocean{background-color:var(--color-5);}
+.section-ocean .about-frame{background-color:transparent;}
+.section-ocean .about-image-frame{--aspect-ratio:9/16; border-radius:var(--rounded-3);}
+.section-ocean .about-image-frame video{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%;}
 
 
 
@@ -203,6 +210,10 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 @media screen and (min-width:1024px){
   .section-cover .section-bg{background-position:top left;}
+
+
+
+  .section-ocean .about-frame{--img-width:310px;}
 }
 
 
@@ -212,5 +223,6 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
 @media screen and (min-width:1280px){
-  .section-impact .about-frame{--img-width:410px; grid-gap:var(--size-6);}
+  .section-impact .about-frame, .section-ocean .about-frame{grid-gap:var(--size-6);}
+  .section-impact .about-frame{--img-width:410px;}
 }

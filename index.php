@@ -119,6 +119,32 @@
   
   </div>
 </section>
+  
+  
+  
+  
+  
+<section class="section-default section-ocean content-center">
+  <div class="section-container">
+
+    <div class="about-frame">
+      <div class="about-image content-center">
+        <div class="about-image-frame img-frame thumb-loading"></div>
+      </div>
+      <div class="about-content">
+        <h2 class="text-title section-title about-title">Football for Ocean & Clean Earth Program</h2>
+        <h3 class="about-subtitle">
+          Grassroots Football Foundation X Borussia M'Gladbach Academy Indonesia
+        </h3>
+        <p>The Football for Ocean & Clean Earth Program is a grassroots initiative by the Grassroots Football Foundation together with Borussia M’gladbach Academy Indonesia. It uses football as a powerful platform to raise awareness about ocean pollution, environmental protection, and the importance of maintaining a clean and sustainable earth for future generations.</p>
+        <p>Through football based activities, environmental education, and community engagement, the program introduces children to the importance of protecting nature in a practical and hands-on way. It helps them understand that environmental responsibility is not only something to learn in theory, but something to practice in everyday life.</p>
+        <p>A key part of this program is actively engaging children in real environmental action, including collecting and picking up garbage in their communities, school areas, and public spaces. This hands-on experience teaches them responsibility, teamwork, and respect for their surroundings while creating visible impact in their environment.</p>
+        <p>The program is designed to shape not only better football players, but also responsible young individuals who care about their communities and the future of the planet.</p>
+      </div>
+    </div>
+  
+  </div>
+</section>
 
 
 
