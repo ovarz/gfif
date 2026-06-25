@@ -94,9 +94,10 @@ header, header .header-logo svg{transition:var(--transition-default);}
 
 
 .section-about{background-color:var(--color-6);}
+.about-frame{background-color:var(--bg-2); border-radius:var(--size-1);}
+.about-image-frame{border-radius:var(--size-1);}
 .about-subtitle{color:var(--color-2);}
 .about-subtitle span{color:var(--color-4);}
-.about-frame{background-color:var(--bg-2);}
 
 
 
