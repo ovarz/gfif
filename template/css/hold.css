@@ -1,6 +1,6 @@
 :root, :before, :after{
   --bg-2:#FFFFFF;  
-  --color-1:#757575; 
+  --color-1:#616161; 
   --color-1a:rgb(117 117 117 / 8%);
   --color-2:#1e1e1e;
   --color-2a:rgb(30 30 30 / 8%);
@@ -9,6 +9,8 @@
   --color-4:#71B641;
   --color-4a:rgb(35 212 104 / 8%);
   --color-5:#FFF59D;
+  --color-5a:rgb(122 185 41 / 8%);
+  --color-6:#605320;
   --color-5a:rgb(122 185 41 / 8%);
   --color-border:#EEEEEE;
   --color-border-form:#E0E0E0;
@@ -70,18 +72,36 @@ a.img-frame:hover{opacity:var(--hover-opacity);}
 
 
 
+header, header .header-logo svg{transition:var(--transition-default);}
 .header-logo .color-1{fill:var(--bg-2);}
 .header-logo .color-2{fill:var(--color-4);}
 
-.header-afterscroll, .header-afterscroll .header-logo svg{transition:var(--transition-default);}
 .header-afterscroll{background-color:var(--bg-2);}
 .header-afterscroll .header-logo .color-1{fill:var(--color-2);}
+.header-afterscroll .header-logo svg{height:48px;}
 
 
 
-.section-cover{color:var(--bg-2);}
+.section-title{color:var(--color-2);}
+
+
+
+.section-cover, .section-cover .section-title{color:var(--bg-2);}
 .section-cover .section-bg{background-repeat:no-repeat; background-size:cover; background-color:var(--color-2);}
-.section-cover .section-overlay{background-color:rgb(0 0 0 / 64%);;}
+.section-cover .section-overlay{background-color:rgb(0 0 0 / 64%);}
+.section-cover .section-gradient{background-image:linear-gradient(to bottom, transparent, var(--color-6));}
+
+
+
+.section-about{background-color:var(--color-6);}
+.about-subtitle{color:var(--color-2);}
+.about-subtitle span{color:var(--color-4);}
+.about-frame{background-color:var(--bg-2);}
+
+
+
+footer .section-container{padding:var(--size-4); text-align:center; background-color:var(--color-2); color:var(--bg-2); 
+font-size:0.75rem; text-wrap:balance; line-height:150%;}
 
 
 
@@ -141,7 +161,7 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
 @media screen and (min-width:640px){
-  
+  .section-cover .section-bg{background-position:top center; background-image:url(../img/bg-desktop.jpg);}
 }
 
 
@@ -151,5 +171,9 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
 @media screen and (min-width:1024px){
-  .section-cover .section-bg{background-position:top left; background-image:url(../img/bg-desktop.jpg);}
+  .header-afterscroll .header-logo svg{height:64px !important;}
+
+
+
+  .section-cover .section-bg{background-position:top left;}
 }

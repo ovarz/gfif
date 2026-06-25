@@ -19,11 +19,19 @@
 
 .site-container{padding-top:var(--size-7); padding-bottom:var(--size-7);}
 .section-container{padding:0 var(--size-6);}
+.section-title{font-size:3rem;}
 
 
 
 .cover-content{max-width:640px;}
-.cover-title{font-size:3rem;}
+
+
+
+.about-frame{padding:var(--size-5); grid-gap:var(--size-5); grid-template-columns:1fr var(--img-width);}
+.about-image, .about-content{grid-row:1/2;} 
+.about-content{grid-column:1/2;}
+.about-image{grid-column:2/3; align-items:flex-start;}
+.about-image-frame{position:sticky; top:144px;}
 
 
 
@@ -32,7 +40,7 @@
 
 
 @media screen and (min-width:1280px){
-  
+  .about-frame{--img-width:480px; padding:var(--size-6);}
 }
 
 

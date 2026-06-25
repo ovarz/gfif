@@ -70,8 +70,8 @@ function updateParallax() {
 }
 updateParallax();
 window.addEventListener("scroll", updateParallax);
-var readMoreBtn = document.querySelector('button[title="Read More"]');
-var targetSection = document.querySelector('.rancak-section-info');
+var readMoreBtn = document.querySelector('.cover-action button');
+var targetSection = document.querySelector('.section-about');
 if (readMoreBtn && targetSection) {
   readMoreBtn.addEventListener('click', function(e) {
     e.preventDefault();
