@@ -101,7 +101,8 @@ header, header .header-logo svg{transition:var(--transition-default);}
 
 
 
-footer .section-container{padding:var(--size-4); text-align:center; background-color:var(--color-2); color:var(--bg-2); 
+footer{background-color:var(--color-2);}
+footer .section-container{padding:var(--size-4); text-align:center; color:var(--bg-2); 
 font-size:0.75rem; text-wrap:balance; line-height:150%;}
 
 
