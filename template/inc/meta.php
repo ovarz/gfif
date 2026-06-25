@@ -1,3 +1,4 @@
+<head>
 <meta charset="utf-8">
 <meta name="robots" content="index, follow">	
 <meta name="googlebot" content="all"/>
@@ -43,6 +44,7 @@
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="canonical" href="https://gfifoundation.org/" />
 <link href="template/img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
 <link rel="preload" href="template/fonts/1Ptgg87LROyAm3Kz-C8.woff2" as="font" type="font/woff2" crossorigin>
@@ -66,5 +68,28 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
 
 <link rel="stylesheet" type="text/css" href="template/css/rancak.css?<?php echo $anticache; ?>"/>
 <link rel="stylesheet" type="text/css" href="template/css/rancak-desktop.css?<?php echo $anticache; ?>" media="(min-width:1024px)">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "NGO",
+  "name": "Grassroots Football Indonesia Foundation",
+  "url": "https://gfifoundation.org/",
+  "logo": "https://gfifoundation.org/template/img/favicon.ico",
+  "description": "Developing Future Generations Through Football, Education, and Social Impact.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Ruko BSD Junction Blok B. 31, JL. Pahlawan Seribu, Serpong",
+    "addressLocality": "Tangerang Selatan",
+    "addressRegion": "Banten",
+    "postalCode": "15322",
+    "addressCountry": "ID"
+  },
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "telephone": "+62-811-1889-8205",
+    "contactType": "customer service"
+  }
+}
+</script>
 </head>
 <body>

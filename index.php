@@ -39,7 +39,7 @@
     <div class="about-frame">
       <div class="about-image content-center">
         <div class="about-image-frame img-frame thumb-loading">
-          <img title="About" class="lazyload" data-original="template/img/about.jpg">
+          <img alt="About <?php echo $sitename; ?>" title="About <?php echo $sitename; ?>" class="lazyload" data-original="template/img/about.jpg">
         </div>
       </div>
       <div class="about-content">
@@ -102,7 +102,7 @@
     <div class="about-frame">
       <div class="about-image content-center">
         <div class="about-image-frame img-frame thumb-loading">
-          <img title="About" class="lazyload" data-original="template/img/impact.jpg">
+          <img alt="Impact <?php echo $sitename; ?>" title="Impact <?php echo $sitename; ?>" class="lazyload" data-original="template/img/impact.jpg">
         </div>
       </div>
       <div class="about-content">
@@ -155,7 +155,8 @@
         ?>
           <button title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading open-gallery-popup" 
           aria-popup-button="<?php echo($image_list['image_label'])?>">
-            <img title="Photo <?php echo($image_list['image_title'])?>" class="lazyload" data-original="template/img/gallery/<?php echo($image_list['image_label'])?>.jpg">
+            <img alt="Photo <?php echo($image_list['image_title'])?>" title="Photo <?php echo($image_list['image_title'])?>" class="lazyload" 
+            data-original="template/img/gallery/<?php echo($image_list['image_label'])?>.jpg">
           </button>
         <?php } ?>
       </div>
@@ -259,7 +260,8 @@
       ?>
         <a title="<?php echo($partner_list['partner_title'])?>" class="partner-display-box img-frame thumb-loading" 
         href="<?php echo($partner_list['partner_link'])?>" target="_blank">
-          <img title="Logo <?php echo($partner_list['partner_title'])?>" class="lazyload" data-original="template/img/partner/<?php echo($partner_list['partner_logo'])?>.png"/>
+          <img alt="Logo <?php echo($partner_list['partner_title'])?>" title="Logo <?php echo($partner_list['partner_title'])?>" class="lazyload" 
+          data-original="template/img/partner/<?php echo($partner_list['partner_logo'])?>.png"/>
         </a>
       <?php } ?>
     </div>
