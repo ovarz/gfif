@@ -3,12 +3,11 @@
 <meta name="googlebot" content="all"/>
 <meta name="googlebot-news" content="index,follow"/>
 <meta name="googlebot-image" content="index,follow"/>
-<meta name="google-site-verification" content="google-site-verification=wzT3h5EonhAMMo-BZm44LrL6hUcQ5xbsz-F6Kvf2U2I"/>
 <meta content="<?php echo $sitename; ?>" name="author"/>
-<meta content="id" name="language"/>
-<meta content="id" name="geo.country"/>
-<meta content="Indonesia" name="geo.placename"/>
-<meta http-equiv="content-language" content="In-Id"/>
+<meta content="en" name="language"/>
+<meta content="us" name="geo.country"/>
+<meta content="United States" name="geo.placename"/>
+<meta http-equiv="content-language" content="en-US"/>
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=yes">
 <meta name="apple-mobile-web-app-capable" content="yes">
@@ -18,9 +17,9 @@
 
 <title><?php echo $menu; ?> - <?php echo $sitename; ?></title>
 <meta name="description" content="Halaman <?php echo $menu; ?> - <?php echo $sitedesc; ?>">
-<meta name="copyright" content="2025 | <?php echo $sitename; ?>">
-<meta name="keywords" content=""/>
-<meta name="news_keywords" content=""/>
+<meta name="copyright" content="2023 | <?php echo $sitename; ?>">
+<meta name="keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
+<meta name="news_keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
 
 <meta property="fb:app_id" content=""/>
 <meta property="og:type" content="article"/>
@@ -28,13 +27,13 @@
 <meta property="og:image:width" content="1920">
 <meta property="og:image:height" content="1080">
   
-<meta property="og:url" content=""/>
+<meta property="og:url" content="https://gfifoundation.org/"/>
 <meta property="og:title" content="<?php echo $sitename; ?>"/>
-<meta property="og:image" content=""/>
+<meta property="og:image" content="https://gfifoundation.org/template/img/cover.jpg"/>
 <meta property="og:description" content="<?php echo $sitedesc; ?>"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image:src" content=""/>
+<meta name="twitter:image:src" content="https://gfifoundation.org/template/img/cover.jpg"/>
 <meta name="twitter:description" content="<?php echo $sitedesc; ?>"/>
 
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
