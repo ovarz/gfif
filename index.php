@@ -193,6 +193,53 @@
   
   
   
+<section class="section-default section-partner content-center">
+  <div class="section-container">
+    <div class="partner-wording">
+      <h2 class="text-title section-title partner-title">Be Our Patron</h2>
+      <h3 class="partner-subtitle">Many children we work with come from communities where access to sports programs, safe spaces, and educational activities is limited.</h3>
+    </div>
+    <ul class="partner-split">
+      <li class="partner-column">
+        <div class="partner-column-title">With your support, we can:</div>
+        <ul class="partner-column-list">
+          <li class="partner-column-row">Provide free football training programs</li>
+          <li class="partner-column-row">Supply equipment (balls, kits, cones, shoes)</li>
+          <li class="partner-column-row">Organize community football and education events</li>
+          <li class="partner-column-row">Expand outreach programs to more regions</li>
+          <li class="partner-column-row">Support environmental and social awareness activities</li>
+          <li class="partner-column-row">Train and empower local coaches and volunteers</li>
+        </ul>
+      </li>
+      <li class="partner-separator"></li>
+      <li class="partner-column">
+        <div class="partner-column-title">We welcome partnerships from:</div>
+        <ul class="partner-column-list">
+          <li class="partner-column-row">Corporates (CSR programs)</li>
+          <li class="partner-column-row">Foundations and NGOs</li>
+          <li class="partner-column-row">Sports organizations</li>
+          <li class="partner-column-row">Educational institutions</li>
+          <li class="partner-column-row">Private donors and individuals</li>
+          <li class="partner-column-row">Government Institutions</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="partner-wording">
+      <h4 class="partner-subtitle">Partnerships can be financial or in-kind (equipment, facilities, logistics, or expertise).</h4>
+    </div>
+    <div class="partner-wording">
+      <h5 class="partner-subtitle">Every contribution helps us reach more children, strengthen communities, and create greater opportunities through football. Together, we can expand our impact and bring meaningful football experiences to more children across Indonesia.</h5>
+    </div>
+    <div class="partner-action content-center">
+      <a title="Join Us" class="btn" href="mailto:contact@gfifoundation.org">Join Us</a>
+    </div>
+  </div>
+</section>
+  
+  
+  
+  
+  
 <section class="section-default section-contact content-center">
   <div class="section-bg img-frame"></div>
   <div class="section-container">

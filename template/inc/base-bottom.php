@@ -17,10 +17,9 @@
 <script defer src="template/js/lazysizes.min.js"></script>
 <script defer rancak-hold="template/js/rancak.js?<?php echo $anticache;?>"></script>
 <script>
-  if ('scrollRestoration' in history) {
-    history.scrollRestoration = 'manual';
-  }
-  window.scrollTo(0,0);
+  //setTimeout(function() {
+    //window.scrollTo(0, 0);
+  //}, 100);
 </script>
 
 
