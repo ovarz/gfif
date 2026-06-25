@@ -153,7 +153,8 @@
           );
           foreach($image_array as $image_list){
         ?>
-          <button title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading">
+          <button title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading open-gallery-popup" 
+          aria-popup-button="<?php echo($image_list['image_label'])?>">
             <img title="Photo <?php echo($image_list['image_title'])?>" class="lazyload" data-original="template/img/gallery/<?php echo($image_list['image_label'])?>.jpg">
           </button>
         <?php } ?>

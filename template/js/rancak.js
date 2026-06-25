@@ -144,6 +144,44 @@ function lazyload_video() {
 
 
 
+function dynamic_gallery_popup(){
+  $('.open-gallery-popup').click(function(e){
+    e.preventDefault();
+    
+    var get_id = $(this).attr('aria-popup-button');
+    var get_title = $(this).attr('title');
+
+    var htmlString = `
+      <div class="rancak-popup dynamic-popup" aria-popup-box="${get_id}" style="display:none;">
+        <div class="rancak-popup-container content-center">
+          <div class="rancak-popup-overlay"></div>
+          <div class="rancak-popup-box">
+            
+            <button title="Close" class="rancak-popup-close content-center">
+              <img src="template/img/icon/close-popup.svg" alt="Close">
+            </button>
+            
+            <div class="rancak-popup-content">
+              <div class="gallery-box img-frame thumb-loading">
+                <img title="${get_title}" class="lazyload" data-original="template/img/gallery/${get_id}.jpg">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    `;
+
+    $('body').append(htmlString);
+    $('.dynamic-popup .rancak-popup-close, .dynamic-popup .rancak-popup-overlay').click(function(){
+      ClosePopup();
+    });
+    $('.dynamic-popup[aria-popup-box=' + get_id +']').slideToggle('fast');
+  });
+}
+
+
+
 $(document).ready(function(){
   "use strict";
   open_sticky();
@@ -152,4 +190,5 @@ $(document).ready(function(){
   all_scroll();
   countup_stats();
   lazyload_video();
+  dynamic_gallery_popup();
 });
