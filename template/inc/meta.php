@@ -39,10 +39,16 @@
 
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="dns-prefetch" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="dns-prefetch" href="https://fonts.gstatic.com">
 <link href="template/img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
-<link rel="preload" href="template/fonts/N0bU2SZBIuF2PU_0DXR1.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="template/fonts/E218_cfngu7HiRpPX3ZpNE4kY5zKYvWhrw.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/1Ptgg87LROyAm3Kz-C8.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/JTUQjIg1_i6t8kCHKm459WxRyS7m.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="template/fonts/1Ptgg87LROyAm3Kz-C8.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="preload" href="template/css/rancak.css?<?php echo $anticache; ?>" as="style">
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" as="script">
 
