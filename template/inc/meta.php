@@ -16,8 +16,8 @@
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-touch-fullscreen" content="yes" />
 
-<title><?php echo $menu; ?> - <?php echo $sitename; ?></title>
-<meta name="description" content="Halaman <?php echo $menu; ?> - <?php echo $sitedesc; ?>">
+<title><?php echo $sitename; ?></title>
+<meta name="description" content="<?php echo $sitedesc; ?>">
 <meta name="copyright" content="2023 | <?php echo $sitename; ?>">
 <meta name="keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
 <meta name="news_keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
