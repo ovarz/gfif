@@ -116,10 +116,17 @@ header, header .header-logo svg{transition:var(--transition-default);}
 
 
 
+.gallery-title{text-align:center; margin-bottom:var(--size-4);}
+.gallery-container, .gallery-image{display:grid; grid-gap:var(--size-1);}
+.gallery-box{--aspect-ratio:16/9; background-color:var(--color-2); border-radius:var(--size-1);}
+.gallery-video .gallery-box{--aspect-ratio:9/16;}
+.gallery-video .gallery-box video{}
+
+
+
 .section-ocean{background-color:var(--color-5);}
 .section-ocean .about-frame{background-color:transparent;}
 .section-ocean .about-image-frame{--aspect-ratio:9/16; border-radius:var(--rounded-3);}
-.section-ocean .about-image-frame video{position:absolute; z-index:2; top:0; left:0; width:100%; height:100%;}
 
 
 
@@ -190,6 +197,12 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 
   .stats-detail{grid-template-columns:repeat(3,1fr);}
+
+
+
+  .gallery-container{grid-template-columns:1fr 70%;}
+  .gallery-image{grid-template-columns:repeat(2,1fr);}
+  .gallery-video .gallery-box{height:100%;}
 }
 
 
@@ -200,6 +213,11 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 @media screen and (min-width:768px){
   .header-afterscroll .header-logo svg{height:64px !important;}
+
+
+  
+  .gallery-container{grid-template-columns:1fr 40%;}
+  .gallery-image{grid-template-columns:repeat(1,1fr);}
 }
 
 
@@ -210,6 +228,11 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 
 @media screen and (min-width:1024px){
   .section-cover .section-bg{background-position:top left;}
+
+
+  
+  .gallery-container{grid-template-columns:1fr 60%;}
+  .gallery-image{grid-template-columns:repeat(2,1fr);}
 
 
 
@@ -225,4 +248,8 @@ top:calc(var(--button-size) / 3 * -1); right:calc(var(--button-size) / 3 * -1);}
 @media screen and (min-width:1280px){
   .section-impact .about-frame, .section-ocean .about-frame{grid-gap:var(--size-6);}
   .section-impact .about-frame{--img-width:410px;}
+
+
+  
+  .gallery-container{grid-template-columns:1fr 70%;}
 }

@@ -94,17 +94,14 @@ function countup_stats() {
   });
 
   var observer = new IntersectionObserver(function(entries) {
-    // Mengecek apakah elemen sudah masuk ke dalam area observer
     if (entries[0].isIntersecting && !hasAnimated) {
-      hasAnimated = true; // Mencegah animasi berjalan berkali-kali
-      
-      // Langkah 5: Jalankan animasi Count Up
+      hasAnimated = true;
       $('.stats-number span').each(function() {
         var $this = $(this);
         var target = $this.attr('data-target');
         
         $({ Counter: 0 }).animate({ Counter: target }, {
-          duration: 2000, // Durasi animasi dalam milidetik (misal: 2000 = 2 detik)
+          duration: 2000,
           easing: 'swing',
           step: function(now) {
             $this.text(Math.ceil(now));
@@ -120,26 +117,29 @@ function countup_stats() {
 
 
 
-function lazyload_ocean_video() {
-  var $oceanSection = $('.section-ocean');
-  if ($oceanSection.length === 0) return;
+function lazyload_video() {
+  var $videoElements = $('[aria-video]');
+  if ($videoElements.length === 0) return;
 
   var observer = new IntersectionObserver(function(entries, observerInstance) {
-    // Terpicu ketika elemen target mulai masuk ke dalam layar dari bawah
-    if (entries[0].isIntersecting) {
-      var videoHtml = '<video autoplay loop muted controls playsinline preload="none"><source src="template/img/ocean.mp4" type="video/mp4"></video>';
-      
-      // Injeksi tag HTML video secara spesifik ke .about-image-frame di dalam .section-ocean
-      $oceanSection.find('.about-image-frame').html(videoHtml);
-      
-      // Hentikan observer agar injeksi kode tidak berulang saat di-scroll kembali
-      observerInstance.unobserve($oceanSection[0]);
-    }
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) {
+        var $target = $(entry.target);
+        var videoName = $target.attr('aria-video');
+        if (videoName) {
+          var videoHtml = '<video autoplay loop muted controls playsinline preload="none"><source src="template/img/' + videoName + '.mp4" type="video/mp4"></video>';
+          $target.html(videoHtml);
+        }
+        observerInstance.unobserve(entry.target);
+      }
+    });
   }, {
-    rootMargin: "0px 0px 0px 0px" // Akurat memantau ketika bagian atas div menyentuh batas bawah layar
+    rootMargin: "0px 0px 0px 0px"
   });
 
-  observer.observe($oceanSection[0]);
+  $videoElements.each(function() {
+    observer.observe(this);
+  });
 }
 
 
@@ -151,5 +151,5 @@ $(document).ready(function(){
   custom_password();
   all_scroll();
   countup_stats();
-  lazyload_ocean_video();
+  lazyload_video();
 });

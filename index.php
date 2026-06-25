@@ -124,12 +124,54 @@
   
   
   
+<section class="section-default section-gallery content-center">
+  <div class="section-container">
+
+    <h2 class="text-title section-title gallery-title">Gallery</h2>
+    <div class="gallery-container">
+      <div class="gallery-video">
+        <div class="gallery-box video-frame thumb-loading" aria-video="gallery"></div>
+      </div>
+      <div class="gallery-image">
+        <?php 
+          $image_array = array();
+          $image_array[]=array(
+            'image_title'=>'Photo 1',
+            'image_label'=>'1',
+          );
+          $image_array[]=array(
+            'image_title'=>'Photo 2',
+            'image_label'=>'2',
+          );
+          $image_array[]=array(
+            'image_title'=>'Photo 3',
+            'image_label'=>'3',
+          );
+          $image_array[]=array(
+            'image_title'=>'Photo 4',
+            'image_label'=>'4',
+          );
+          foreach($image_array as $image_list){
+        ?>
+          <button title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading">
+            <img title="Photo <?php echo($image_list['image_title'])?>" class="lazyload" data-original="template/img/gallery/<?php echo($image_list['image_label'])?>.jpg">
+          </button>
+        <?php } ?>
+      </div>
+    </div>
+  
+  </div>
+</section>
+  
+  
+  
+  
 <section class="section-default section-ocean content-center">
   <div class="section-container">
 
     <div class="about-frame">
       <div class="about-image content-center">
-        <div class="about-image-frame img-frame thumb-loading"></div>
+        <div class="about-image-frame video-frame thumb-loading" aria-video="ocean"></div>
       </div>
       <div class="about-content">
         <h2 class="text-title section-title about-title">Football for Ocean & Clean Earth Program</h2>
