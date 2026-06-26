@@ -19,9 +19,9 @@
 
     <div class="cover-content">
       <div class="cover-subtitle">Welcome to</div>
-      <h1 class="text-title section-title cover-title"><?php echo $sitename; ?></h1>
-      <h2 class="cover-subtitle">Developing Future Generations Through Football</h2>
-      <div class="cover-action">
+      <h1 data-aos="fade-up" data-aos-delay="50" class="text-title section-title cover-title"><?php echo $sitename; ?></h1>
+      <h2 data-aos="fade-up" data-aos-delay="50" class="cover-subtitle">Developing Future Generations Through Football</h2>
+      <div data-aos="fade-up" data-aos-delay="50" class="cover-action">
         <button class="btn">Read More</button>
       </div>
     </div>
@@ -38,19 +38,19 @@
 
     <div class="about-frame">
       <div class="about-image content-center">
-        <div class="about-image-frame img-frame thumb-loading">
+        <div data-aos="fade-up" data-aos-delay="50" class="about-image-frame img-frame thumb-loading">
           <img alt="About <?php echo $sitename; ?>" title="About <?php echo $sitename; ?>" class="lazyload" data-original="template/img/about.jpg">
         </div>
       </div>
       <div class="about-content">
-        <h2 class="text-title section-title about-title">About Us</h2>
-        <h3 class="about-subtitle">
+        <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title about-title">About Us</h2>
+        <h3 data-aos="fade-up" data-aos-delay="50" class="about-subtitle">
           <span>Football is More Than a Game</span> - It Builds Character, Creates Opportunities, and Changes Lives.
         </h3>
-        <p>The Grassroots Football Foundation was established in 2023 with a vision to use football as a powerful tool for youth development, education, and social impact.</p>
-        <p>We are committed to developing young players through structured football education, professional coaching, mentorship, and equal opportunities for children from all backgrounds. Our goal is to create a sustainable football ecosystem where every young talent has the opportunity to learn, grow, and pursue their dreams while developing both their football abilities and personal values.</p>
-        <p>We believe football is more than a game; it is a powerful platform to inspire growth, build character, and create positive impact. Through football, we empower children to discover their potential, develop responsibility and leadership, and become confident individuals who contribute to stronger communities and future generations.</p>
-        <p>Together, we build not only better players, but also stronger individuals and a brighter future through the power of football.</p>
+        <p data-aos="fade-up" data-aos-delay="50">The Grassroots Football Foundation was established in 2023 with a vision to use football as a powerful tool for youth development, education, and social impact.</p>
+        <p data-aos="fade-up" data-aos-delay="50">We are committed to developing young players through structured football education, professional coaching, mentorship, and equal opportunities for children from all backgrounds. Our goal is to create a sustainable football ecosystem where every young talent has the opportunity to learn, grow, and pursue their dreams while developing both their football abilities and personal values.</p>
+        <p data-aos="fade-up" data-aos-delay="50">We believe football is more than a game; it is a powerful platform to inspire growth, build character, and create positive impact. Through football, we empower children to discover their potential, develop responsibility and leadership, and become confident individuals who contribute to stronger communities and future generations.</p>
+        <p data-aos="fade-up" data-aos-delay="50">Together, we build not only better players, but also stronger individuals and a brighter future through the power of football.</p>
       </div>
     </div>
   
@@ -64,8 +64,8 @@
 <section class="section-default section-stats content-center">
   <div class="section-bg img-frame"></div>
   <div class="section-container">
-    <h2 class="text-title section-title stats-title">Engagement</h2>
-    <h3 class="stats-subtitle">Established with a vision to use football as a powerful platform to create positive social impact, develop young individuals, and provide opportunities for children through the values and experiences of the sport.</h3>
+    <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title stats-title">Engagement</h2>
+    <h3 data-aos="fade-up" data-aos-delay="50" class="stats-subtitle">Established with a vision to use football as a powerful platform to create positive social impact, develop young individuals, and provide opportunities for children through the values and experiences of the sport.</h3>
     <div class="stats-detail">
       <?php 
         $stat_array = array();
@@ -106,14 +106,14 @@
         </div>
       </div>
       <div class="about-content">
-        <h2 class="text-title section-title about-title">Football For Social Impact</h2>
-        <h3 class="about-subtitle">
+        <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title about-title">Football For Social Impact</h2>
+        <h3 data-aos="fade-up" data-aos-delay="50" class="about-subtitle">
           Grassroots Football Foundation x Borussia M’gladbach Academy Indonesia x ISCO.
         </h3>
-        <p>Since 2024, Grassroots Football Foundation and Borussia M’gladbach Academy Indonesia, has partnered with ISCO to create a meaningful football development program focused on education, inclusion, and social impact.</p>
-        <p>Through this collaboration, we use football as a bridge to empower children, create hope, and develop future generations. Children from street communities were given the opportunity to experience football not only as a sport, but as a platform for learning, personal growth, and positive development.</p>
-        <p>Our program serve football coaching methods inspired by Borussia Academy’s development approach, participants had the opportunity to train, play, and grow together while discovering their potential both on and off the pitch. Combining football activities with educational support, mentorship, and character building, allowing children to develop confidence, teamwork, discipline, and a sense of belonging in a supportive environment.</p>
-        <p>The Foundation believes that football has the power to create opportunities, connect communities, and inspire young people to build a better future.</p>
+        <p data-aos="fade-up" data-aos-delay="50">Since 2024, Grassroots Football Foundation and Borussia M’gladbach Academy Indonesia, has partnered with ISCO to create a meaningful football development program focused on education, inclusion, and social impact.</p>
+        <p data-aos="fade-up" data-aos-delay="50">Through this collaboration, we use football as a bridge to empower children, create hope, and develop future generations. Children from street communities were given the opportunity to experience football not only as a sport, but as a platform for learning, personal growth, and positive development.</p>
+        <p data-aos="fade-up" data-aos-delay="50">Our program serve football coaching methods inspired by Borussia Academy’s development approach, participants had the opportunity to train, play, and grow together while discovering their potential both on and off the pitch. Combining football activities with educational support, mentorship, and character building, allowing children to develop confidence, teamwork, discipline, and a sense of belonging in a supportive environment.</p>
+        <p data-aos="fade-up" data-aos-delay="50">The Foundation believes that football has the power to create opportunities, connect communities, and inspire young people to build a better future.</p>
       </div>
     </div>
   
@@ -127,10 +127,10 @@
 <section class="section-default section-gallery content-center">
   <div class="section-container">
 
-    <h2 class="text-title section-title gallery-title">Gallery</h2>
+    <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title gallery-title">Gallery</h2>
     <div class="gallery-container">
       <div class="gallery-video">
-        <div class="gallery-box video-frame thumb-loading" aria-video="gallery"></div>
+        <div data-aos="fade-up" data-aos-delay="50" class="gallery-box video-frame thumb-loading" aria-video="gallery"></div>
       </div>
       <div class="gallery-image">
         <?php 
@@ -153,7 +153,7 @@
           );
           foreach($image_array as $image_list){
         ?>
-          <button title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading open-gallery-popup" 
+          <button data-aos="fade-up" data-aos-delay="50" title="<?php echo($image_list['image_title'])?>" class="gallery-box img-frame thumb-loading open-gallery-popup" 
           aria-popup-button="<?php echo($image_list['image_label'])?>">
             <img alt="Photo <?php echo($image_list['image_title'])?>" title="Photo <?php echo($image_list['image_title'])?>" class="lazyload" 
             data-original="template/img/gallery/<?php echo($image_list['image_label'])?>.jpg">
@@ -173,17 +173,17 @@
 
     <div class="about-frame">
       <div class="about-image content-center">
-        <div class="about-image-frame video-frame thumb-loading" aria-video="ocean"></div>
+        <div data-aos="fade-up" data-aos-delay="50" class="about-image-frame video-frame thumb-loading" aria-video="ocean"></div>
       </div>
       <div class="about-content">
-        <h2 class="text-title section-title about-title">Football for Ocean & Clean Earth Program</h2>
-        <h3 class="about-subtitle">
+        <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title about-title">Football for Ocean & Clean Earth Program</h2>
+        <h3 data-aos="fade-up" data-aos-delay="50" class="about-subtitle">
           Grassroots Football Foundation X Borussia M'Gladbach Academy Indonesia
         </h3>
-        <p>The Football for Ocean & Clean Earth Program is a grassroots initiative by the Grassroots Football Foundation together with Borussia M’gladbach Academy Indonesia. It uses football as a powerful platform to raise awareness about ocean pollution, environmental protection, and the importance of maintaining a clean and sustainable earth for future generations.</p>
-        <p>Through football based activities, environmental education, and community engagement, the program introduces children to the importance of protecting nature in a practical and hands-on way. It helps them understand that environmental responsibility is not only something to learn in theory, but something to practice in everyday life.</p>
-        <p>A key part of this program is actively engaging children in real environmental action, including collecting and picking up garbage in their communities, school areas, and public spaces. This hands-on experience teaches them responsibility, teamwork, and respect for their surroundings while creating visible impact in their environment.</p>
-        <p>The program is designed to shape not only better football players, but also responsible young individuals who care about their communities and the future of the planet.</p>
+        <p data-aos="fade-up" data-aos-delay="50">The Football for Ocean & Clean Earth Program is a grassroots initiative by the Grassroots Football Foundation together with Borussia M’gladbach Academy Indonesia. It uses football as a powerful platform to raise awareness about ocean pollution, environmental protection, and the importance of maintaining a clean and sustainable earth for future generations.</p>
+        <p data-aos="fade-up" data-aos-delay="50">Through football based activities, environmental education, and community engagement, the program introduces children to the importance of protecting nature in a practical and hands-on way. It helps them understand that environmental responsibility is not only something to learn in theory, but something to practice in everyday life.</p>
+        <p data-aos="fade-up" data-aos-delay="50">A key part of this program is actively engaging children in real environmental action, including collecting and picking up garbage in their communities, school areas, and public spaces. This hands-on experience teaches them responsibility, teamwork, and respect for their surroundings while creating visible impact in their environment.</p>
+        <p data-aos="fade-up" data-aos-delay="50">The program is designed to shape not only better football players, but also responsible young individuals who care about their communities and the future of the planet.</p>
       </div>
     </div>
   
@@ -197,11 +197,11 @@
 <section class="section-default section-partner content-center">
   <div class="section-container">
     <div class="partner-wording">
-      <h2 class="text-title section-title partner-title">Be Our Patron</h2>
-      <h3 class="partner-subtitle">Many children we work with come from communities where access to sports programs, safe spaces, and educational activities is limited.</h3>
+      <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title partner-title">Be Our Patron</h2>
+      <h3 data-aos="fade-up" data-aos-delay="50" class="partner-subtitle">Many children we work with come from communities where access to sports programs, safe spaces, and educational activities is limited.</h3>
     </div>
     <ul class="partner-split">
-      <li class="partner-column">
+      <li data-aos="fade-up" data-aos-delay="50" class="partner-column">
         <div class="partner-column-title">With your support, we can:</div>
         <ul class="partner-column-list">
           <li class="partner-column-row">Provide free football training programs</li>
@@ -213,7 +213,7 @@
         </ul>
       </li>
       <li class="partner-separator"></li>
-      <li class="partner-column">
+      <li data-aos="fade-up" data-aos-delay="50" class="partner-column">
         <div class="partner-column-title">We welcome partnerships from:</div>
         <ul class="partner-column-list">
           <li class="partner-column-row">Corporates (CSR programs)</li>
@@ -226,7 +226,7 @@
       </li>
     </ul>
     <div class="partner-wording">
-      <h4 class="partner-subtitle">Partnerships can be financial or in-kind (equipment, facilities, logistics, or expertise).</h4>
+      <h4 data-aos="fade-up" data-aos-delay="50" class="partner-subtitle">Partnerships can be financial or in-kind (equipment, facilities, logistics, or expertise).</h4>
     </div>
     <div class="partner-display">
       <?php 
@@ -258,17 +258,17 @@
         );
         foreach($partner_array as $partner_list){
       ?>
-        <a title="<?php echo($partner_list['partner_title'])?>" class="partner-display-box img-frame thumb-loading" 
+        <a data-aos="fade-up" data-aos-delay="50" title="<?php echo($partner_list['partner_title'])?>" class="partner-display-box img-frame thumb-loading" 
         href="<?php echo($partner_list['partner_link'])?>" target="_blank">
           <img alt="Logo <?php echo($partner_list['partner_title'])?>" title="Logo <?php echo($partner_list['partner_title'])?>" class="lazyload" 
           data-original="template/img/partner/<?php echo($partner_list['partner_logo'])?>.png"/>
         </a>
       <?php } ?>
     </div>
-    <div class="partner-wording">
+    <div data-aos="fade-up" data-aos-delay="50" class="partner-wording">
       <h5 class="partner-subtitle">Every contribution helps us reach more children, strengthen communities, and create greater opportunities through football. Together, we can expand our impact and bring meaningful football experiences to more children across Indonesia.</h5>
     </div>
-    <div class="partner-action content-center">
+    <div data-aos="fade-up" data-aos-delay="50" class="partner-action content-center">
       <a title="Join Us" class="btn" href="mailto:contact@gfifoundation.org">Join Us</a>
     </div>
   </div>
@@ -289,7 +289,7 @@
         </div>
       </div>
       <div class="about-content contact-content">
-        <h2 class="text-title section-title contact-title">Contact Us</h2>
+        <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title contact-title">Contact Us</h2>
         <?php 
           $contact_array = array();
           $contact_array[]=array(
@@ -336,7 +336,7 @@
           */
           foreach($contact_array as $contact_list){
         ?>
-          <<?php echo($contact_list['contact_type'])?> title="<?php echo($contact_list['contact_title'])?>" class="contact-content-box" 
+          <<?php echo($contact_list['contact_type'])?> data-aos="fade-up" data-aos-delay="50" title="<?php echo($contact_list['contact_title'])?>" class="contact-content-box" 
           href="<?php echo($contact_list['contact_link'])?>">
             <div class="ccb-left">
               <div class="ccb-icon"><?php require ($_SERVER['GFI'].'template/img/icon/'.$contact_list['contact_icon'].'.svg')?></div>
