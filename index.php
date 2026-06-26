@@ -19,9 +19,9 @@
 
     <div class="cover-content">
       <div class="cover-subtitle">Welcome to</div>
-      <h1 data-aos="fade-up" data-aos-delay="50" class="text-title section-title cover-title"><?php echo $sitename; ?></h1>
-      <h2 data-aos="fade-up" data-aos-delay="50" class="cover-subtitle">Developing Future Generations Through Football</h2>
-      <div data-aos="fade-up" data-aos-delay="50" class="cover-action">
+      <h1 class="text-title section-title cover-title"><?php echo $sitename; ?></h1>
+      <h2 class="cover-subtitle">Developing Future Generations Through Football</h2>
+      <div class="cover-action">
         <button class="btn">Read More</button>
       </div>
     </div>
@@ -38,7 +38,7 @@
 
     <div class="about-frame">
       <div class="about-image content-center">
-        <div data-aos="fade-up" data-aos-delay="50" class="about-image-frame img-frame thumb-loading">
+        <div class="about-image-frame img-frame thumb-loading">
           <img alt="About <?php echo $sitename; ?>" title="About <?php echo $sitename; ?>" class="lazyload" data-original="template/img/about.jpg">
         </div>
       </div>
