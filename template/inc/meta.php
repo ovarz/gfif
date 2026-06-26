@@ -71,7 +71,6 @@
 <link rel="preload" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" as="script">
 <link rel="preload" href="template/js/lazysizes.min.js" as="script">
 <link rel="preload" href="template/js/aos.js" as="script">
-<link rel="preload" as="image" href="template/img/bg-mobile-small.jpg" fetchpriority="high">
 
 <style><?php require ($_SERVER['GFI'].'template/css/font.css')?></style>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
