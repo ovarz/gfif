@@ -1,4 +1,12 @@
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-5X4YMMDZZ4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-5X4YMMDZZ4');
+</script>
 <meta charset="utf-8">
 <meta name="robots" content="index, follow">	
 <meta name="googlebot" content="all"/>
@@ -40,12 +48,16 @@
 <meta name="twitter:image:src" content="https://gfifoundation.org/template/img/cover.jpg"/>
 <meta name="twitter:description" content="<?php echo $sitedesc; ?>"/>
 
+<link rel="preconnect" href="https://gfifoundation.org/">
+<link rel="dns-prefetch" href="https://gfifoundation.org/">
 <link rel="preconnect" href="https://cdnjs.cloudflare.com">
 <link rel="dns-prefetch" href="https://cdnjs.cloudflare.com">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="dns-prefetch" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<link rel="dns-prefetch" href="https://www.googletagmanager.com">
 <link rel="canonical" href="https://gfifoundation.org/" />
 <link href="template/img/favicon.ico?<?php echo $anticache; ?>" rel="icon" type="image/ico" />
 
