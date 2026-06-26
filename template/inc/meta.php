@@ -24,7 +24,7 @@
 <meta name="HandheldFriendly" content="true" />
 <meta name="apple-touch-fullscreen" content="yes" />
 
-<title><?php echo $sitename; ?></title>
+<title><?php echo $sitename_full; ?></title>
 <meta name="description" content="<?php echo $sitedesc; ?>">
 <meta name="copyright" content="2023 | <?php echo $sitename; ?>">
 <meta name="keywords" content="Grassroots Football Indonesia Foundation, GFI Foundation, Youth Development"/>
@@ -39,10 +39,10 @@
 <meta property="og:image:height" content="1080">
   
 <meta property="og:url" content="https://gfifoundation.org/"/>
-<meta property="og:title" content="<?php echo $sitename; ?>"/>
+<meta property="og:title" content="<?php echo $sitename_full; ?>"/>
 <meta property="og:image" content="https://gfifoundation.org/template/img/cover.jpg"/>
 <meta property="og:description" content="<?php echo $sitedesc; ?>"/>
-<meta property="og:image:alt" content="<?php echo $sitename; ?>. <?php echo $sitedesc; ?>"/>
+<meta property="og:image:alt" content="<?php echo $sitename_full; ?>. <?php echo $sitedesc; ?>"/>
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image:src" content="https://gfifoundation.org/template/img/cover.jpg"/>
