@@ -1,3 +1,35 @@
+<div class="rancak-popup" aria-popup-box="PopupDonate">
+  <div class="rancak-popup-container content-center">
+    <div class="rancak-popup-overlay"></div>
+    <div class="rancak-popup-box">
+      
+      <button title="Close" class="rancak-popup-close content-center">
+        <?php require ($_SERVER['GFI'].'template/img/icon/close-popup.svg')?>
+      </button>
+      
+      <div class="rancak-popup-content popup-donate">
+        <div class="donate-qr">
+          <div class="donate-qr-frame img-frame thumb-loading">
+            <img alt="Donate QRIS" title="Donate QRIS" class="lazyload" data-original="template/img/qris.jpg">
+          </div>
+        </div>
+        <div class="donate-content">
+          <div class="donate-title text-title">Opening Lorem Ipsum</div>
+          <div class="donate-info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla libero a turpis viverra vehicula.</p>
+            <p>Sed ac pellentesque ligula, ac pharetra justo. Donec ut erat vitae tortor accumsan convallis.</p>
+            <p>
+              For more information, please contact: 
+              <a title="CS <?php echo $sitename; ?>" class="donate-cs" href="https://api.whatsapp.com/send/?phone=6281118898205" target="_blank">62 811 1889 8205</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</div>
+
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="template/css/hold.css?<?php echo $anticache;?>" media="print" onload="this.media='all'"/>
   <link rel="stylesheet" type="text/css" href="template/css/aos.css" media="print" onload="this.media='all'"/>

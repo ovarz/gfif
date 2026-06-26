@@ -7,7 +7,7 @@
     </div>
     <div class="header-right">
       <div class="header-donate header-box header-donate content-center">
-        <button title="Donate <?php echo $sitename; ?>" class="btn" disabled>
+        <button title="Donate <?php echo $sitename; ?>" class="btn open-sticky" aria-popup-button="PopupDonate">
           Donate
         </button>
       </div>
