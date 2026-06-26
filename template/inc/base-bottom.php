@@ -1,6 +1,5 @@
 <noscript id="deferred-styles">
   <link rel="stylesheet" type="text/css" href="template/css/hold.css?<?php echo $anticache;?>" media="print" onload="this.media='all'"/>
-  <link rel="stylesheet" type="text/css" href="https://unpkg.com/aos@next/dist/aos.css" media="print" onload="this.media='all'"/>
 </noscript>
 <script defer>
   var loadDeferredStyles = function() {
@@ -21,10 +20,6 @@
   setTimeout(function() {
     window.scrollTo(0, 0);
   }, 100);
-</script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-  AOS.init();
 </script>
 </body>
 </html>
