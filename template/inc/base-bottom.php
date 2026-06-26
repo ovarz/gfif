@@ -21,8 +21,10 @@
     window.scrollTo(0, 0);
   }, 100);
 </script>
-
-
-
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
