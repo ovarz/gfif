@@ -14,10 +14,9 @@
           </div>
         </div>
         <div class="donate-content">
-          <div class="donate-title text-title">Opening Lorem Ipsum</div>
+          <div class="donate-title text-title">Your generosity gives these children the opportunity to pursue their dreams.</div>
           <div class="donate-info">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer fringilla libero a turpis viverra vehicula.</p>
-            <p>Sed ac pellentesque ligula, ac pharetra justo. Donec ut erat vitae tortor accumsan convallis.</p>
+            <p>By supporting their education and personal growth, you're helping open doors to new possibilities and giving them the confidence to build a brighter future. Your kindness creates opportunities that can have a lasting impact on their lives.</p>
             <p>
               For more information, please contact: 
               <a title="CS <?php echo $sitename; ?>" class="donate-cs" href="https://api.whatsapp.com/send/?phone=6281118898205" target="_blank">62 811 1889 8205</a>
