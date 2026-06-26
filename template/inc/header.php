@@ -6,9 +6,11 @@
       </a>
     </div>
     <div class="header-right">
-      <button title="Share <?php echo $sitename; ?>" class="header-box header-share content-center">
-        <?php require ($_SERVER['GFI'].'template/img/icon/share.svg')?>
-      </button>
+      <div class="header-donate header-box header-donate content-center">
+        <button title="Donate <?php echo $sitename; ?>" class="btn" disabled>
+          Donate
+        </button>
+      </div>
     </div>
   </div>
 </header>

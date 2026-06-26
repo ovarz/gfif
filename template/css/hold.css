@@ -43,6 +43,7 @@ a, .btn, button{transition:var(--transition-default); cursor:pointer}
 a, button{color:var(--color-4); fill:var(--color-4);}
 a:hover, button:hover{color:var(--color-3); fill:var(--color-3);}
 .btn, a.btn, button.btn{background-color:var(--color-4); color:var(--bg-2); fill:var(--bg-2); border-radius:var(--rounded-1);}
+.btn:disabled{color:var(--color-1) !important; fill:var(--color-1) !important; background-color:var(--color-border-form) !important;}
 .btn:hover, a.btn:hover, button.btn:hover{background-color:var(--color-3); color:var(--bg-2); fill:var(--bg-2);}
 .btn-outline{border:2px solid var(--color-4); color:var(--color-4); fill:var(--color-4); background-color:transparent; border-radius:var(--size-6);}
 .btn-outline:hover{border:2px solid var(--color-3); color:var(--color-3); fill:var(--color-3);}
