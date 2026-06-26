@@ -39,7 +39,7 @@
     <div class="about-frame">
       <div class="about-image content-center">
         <div class="about-image-frame img-frame thumb-loading">
-          <img alt="About <?php echo $sitename; ?>" title="About <?php echo $sitename; ?>" class="lazyload" data-original="template/img/about.jpg">
+          <img alt="About <?php echo $sitename; ?>" title="About <?php echo $sitename; ?>" class="lazyload" data-original="template/img/about.webp">
         </div>
       </div>
       <div class="about-content">
