@@ -93,6 +93,7 @@ $("body,html").bind("touchstart touchmove scroll mousedown DOMMouseScroll mousew
   "name": "Grassroots Football Indonesia Foundation",
   "url": "https://gfifoundation.org/",
   "logo": "https://gfifoundation.org/template/img/favicon.ico",
+  "image": "https://gfifoundation.org/template/img/cover.jpg",
   "description": "Developing Future Generations Through Football, Education, and Social Impact.",
   "address": {
     "@type": "PostalAddress",
