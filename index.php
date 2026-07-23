@@ -225,8 +225,20 @@
         </ul>
       </li>
     </ul>
+  </div>
+</section>
+  
+  
+  
+  
+  
+<section class="section-default section-partner section-partner-list content-center">
+  <div class="section-container">
     <div class="partner-wording">
+      <h2 data-aos="fade-up" data-aos-delay="50" class="text-title section-title partner-title">Our Partner</h2>
+      <!--
       <h4 data-aos="fade-up" data-aos-delay="50" class="partner-subtitle">Partnerships can be financial or in-kind (equipment, facilities, logistics, or expertise).</h4>
+      -->
     </div>
     <div class="partner-display">
       <?php 
@@ -265,6 +277,15 @@
         </a>
       <?php } ?>
     </div>
+  </div>
+</section>
+  
+  
+  
+  
+  
+<section class="section-default section-partner content-center">
+  <div class="section-container">
     <div data-aos="fade-up" data-aos-delay="50" class="partner-wording">
       <h5 class="partner-subtitle">Every contribution helps us reach more children, strengthen communities, and create greater opportunities through football. Together, we can expand our impact and bring meaningful football experiences to more children across Indonesia.</h5>
     </div>
